@@ -1,0 +1,25 @@
+button{
+   width: 100px;
+   height: 50px;
+   align-items: center;
+   font-size: 30px;
+    
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,100px);
+    gap: 10px;
+}
+.input{
+    background-color: black;
+    width: 99%;
+    height: 40px;
+    color: white;
+}
+.container{
+     border: 1px solid black;
+     display: block;
+     width: 50%;
+     background-color: rgb(206, 216, 212);
+}
